@@ -1,0 +1,68 @@
+body {
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    color: rgb(250,250,250);
+}
+.main {
+    text-align: center;
+}
+.name {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    border-bottom: 2px solid rgb(250, 250, 150);
+    margin-inline: auto;
+    margin-block: 30px;
+}
+.clgname {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+.branchname {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+.hobby {
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-block: 10px;
+    max-width: 800px;
+    margin-inline: auto;
+    border-bottom: 2px solid rgb(250, 150, 100);
+}
+.hobbyhead {
+    color: rgb(250, 200, 100);
+}
+.hobbystatus {
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(250, 250, 200)
+}
+.futureplans {
+    display: grid;
+    margin-inline: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 800px;
+    text-align: center;
+}
+.futureplanheading {
+    grid-area: 1 / 1 / 2 / 3;
+    color: rgb(250, 200, 150);
+    font-weight: 800;
+    font-size: 3em;
+    margin: 0;
+    padding-block: 20px;
+}
+.futureplan {
+    background-color: rgb(100, 100, 50);
+    align-items: center;
+    justify-content: center;
+    margin-block: auto;
+    padding-block: 20px;
+    margin-inline: 10px;
+    border-radius: 50px;
+}
